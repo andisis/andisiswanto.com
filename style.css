@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(51, 68, 85);
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.center-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.social-icon {
+    margin-top: 3em;
+}
+
+.social-icon a {
+    padding: 1em;
+}
+
+a{
+    outline: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}

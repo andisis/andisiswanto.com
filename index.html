@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:700&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Hi, I'm Andi Siswanto | Web Developer - Backend Developer</title>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PMF4LQK');</script>
+        <!-- End Google Tag Manager -->
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMF4LQK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+         <!-- End Google Tag Manager (noscript) -->
+
+        <div class="container">
+            <div class="center-box">
+                <h1 class="text-center">ANDI SISWANTO</h1>
+                <h4 class="text-center">Web Developer - Backend Developer</h4>
+
+                <div class="social-icon text-center">
+                    <a href="https://api.whatsapp.com/send?phone=6285290919260&text=Hi%20Andi,%20I%20want%20to%20start%20business%20with%20you.%0ACan%20you%20help%20me?" target="_blank" class="text-success" data-toggle="tooltip" data-placement="bottom" title="WhatsApp">
+                        <i class="fab fa-whatsapp fa-3x"></i>
+                    </a>
+                    <a href="https://t.me/andisis92 " target="_blank" data-toggle="tooltip" data-placement="bottom" title="Telegram">
+                        <i class="fab fa-telegram fa-3x"></i>
+                    </a>
+                    <a href="#" onclick="mailClick()" class="text-dark" data-toggle="tooltip" data-placement="bottom" title="Email">
+                        <i class="fas fa-envelope fa-3x"></i>
+                    </a>
+                    <a href="https://join.skype.com/invite/dWFl0p74BwRa" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Skype">
+                        <i class="fab fa-skype fa-3x"></i>
+                    </a>
+                    <a href="https://github.com/andisis" target="_blank" class="text-dark" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/andisiswanto" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Linkedin">
+                        <i class="fab fa-linkedin fa-3x"></i>
+                    </a>
+                    <br/><br/>
+                    <span id="emailContent"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script>
+            // Tooltip
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+
+            // Email
+            function mailClick() {
+                var v1 = 'andisis92';
+                var v2 = '@';
+                var v3 = 'mailto:';
+                var v5 = 'gmail';
+                var v4 = '.com';
+    
+                var mail = v1+v2+v5+v4;
+                window.location.href = v3+mail
+    
+                var emailSpan = document.getElementById("emailContent");
+                emailSpan.textContent = mail;
+    
+                return false;
+            }
+        </script>
+    </body>
+</html>
